@@ -61,7 +61,7 @@ st.markdown(f"### Status: {status_msg}")
 
 # ---------- single Continue button ----------
 if st.button(
-    "➡️ Continue to Live Session",
+    "Continue to Live Session",
     disabled=not st.session_state["calibrated"],
     key="continue_btn",
 ):

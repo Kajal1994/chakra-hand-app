@@ -5,7 +5,7 @@ import time
 st.set_page_config(page_title="Chakra Visualiser", layout="centered")
 
 # ----- TITLE & INTRO -----
-st.title("🌀 Chakra Visualiser")
+st.title("🌀 Inner Universe")
 st.subheader("Real-time gesture-activated chakra feedback")
 
 st.write("""
@@ -24,7 +24,7 @@ except FileNotFoundError:
 st.markdown("---")
 
 # ----- BEGIN BUTTON -----
-if st.button("👉 Begin Calibration"):
+if st.button("Begin Calibration"):
     # tiny delay for smoother UX
     time.sleep(0.3)
     # Use Streamlit's built-in page navigation
